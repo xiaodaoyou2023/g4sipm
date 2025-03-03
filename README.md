@@ -26,8 +26,7 @@ The build process has been tested with Ubuntu 15.04 and Scientific Linux 6.
 
 Clone the code
 
-    git clone https://github.com/ntim/g4sipm.git source
-    cd source
+    git clone https://github.com/xiaodaoyou2023/g4sipm.git
 
 Initialize submodules Googletest and Jansson    
     
@@ -36,10 +35,9 @@ Initialize submodules Googletest and Jansson
     
 Configure the build with CMake
 
-    cd ../
     mkdir build
     cd build
-    cmake ../source
+    cmake ..
     
 Finally, start the build process
 
